@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:test1_sort.xcodeproj">
+      location = "self:/Users/shan/Documents/GitHub/TWTtest/test1_sort/homework1.xcodeproj">
    </FileRef>
 </Workspace>

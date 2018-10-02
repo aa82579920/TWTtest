@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74687E94216359A60059A3C4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74687E93216359A60059A3C4 /* main.swift */; };
+		74687E94216359A60059A3C4 /* sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74687E93216359A60059A3C4 /* sort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		74687E90216359A60059A3C4 /* test1_sort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test1_sort; sourceTree = BUILT_PRODUCTS_DIR; };
-		74687E93216359A60059A3C4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		74687E90216359A60059A3C4 /* homework1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = homework1; sourceTree = BUILT_PRODUCTS_DIR; };
+		74687E93216359A60059A3C4 /* sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 		74687E87216359A60059A3C4 = {
 			isa = PBXGroup;
 			children = (
-				74687E92216359A60059A3C4 /* test1_sort */,
+				74687E92216359A60059A3C4 /* homework1 */,
 				74687E91216359A60059A3C4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		74687E91216359A60059A3C4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				74687E90216359A60059A3C4 /* test1_sort */,
+				74687E90216359A60059A3C4 /* homework1 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		74687E92216359A60059A3C4 /* test1_sort */ = {
+		74687E92216359A60059A3C4 /* homework1 */ = {
 			isa = PBXGroup;
 			children = (
-				74687E93216359A60059A3C4 /* main.swift */,
+				74687E93216359A60059A3C4 /* sort.swift */,
 			);
-			path = test1_sort;
+			path = homework1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		74687E8F216359A60059A3C4 /* test1_sort */ = {
+		74687E8F216359A60059A3C4 /* homework1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74687E97216359A60059A3C4 /* Build configuration list for PBXNativeTarget "test1_sort" */;
+			buildConfigurationList = 74687E97216359A60059A3C4 /* Build configuration list for PBXNativeTarget "homework1" */;
 			buildPhases = (
 				74687E8C216359A60059A3C4 /* Sources */,
 				74687E8D216359A60059A3C4 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = test1_sort;
+			name = homework1;
 			productName = test1_sort;
-			productReference = 74687E90216359A60059A3C4 /* test1_sort */;
+			productReference = 74687E90216359A60059A3C4 /* homework1 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 74687E8B216359A60059A3C4 /* Build configuration list for PBXProject "test1_sort" */;
+			buildConfigurationList = 74687E8B216359A60059A3C4 /* Build configuration list for PBXProject "homework1" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				74687E8F216359A60059A3C4 /* test1_sort */,
+				74687E8F216359A60059A3C4 /* homework1 */,
 			);
 		};
 /* End PBXProject section */
@@ -119,7 +119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74687E94216359A60059A3C4 /* main.swift in Sources */,
+				74687E94216359A60059A3C4 /* sort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +262,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		74687E8B216359A60059A3C4 /* Build configuration list for PBXProject "test1_sort" */ = {
+		74687E8B216359A60059A3C4 /* Build configuration list for PBXProject "homework1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74687E95216359A60059A3C4 /* Debug */,
@@ -271,7 +271,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74687E97216359A60059A3C4 /* Build configuration list for PBXNativeTarget "test1_sort" */ = {
+		74687E97216359A60059A3C4 /* Build configuration list for PBXNativeTarget "homework1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74687E98216359A60059A3C4 /* Debug */,

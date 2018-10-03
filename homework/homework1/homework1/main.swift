@@ -9,7 +9,7 @@
 import Foundation
 
 //Int型升序排序
-func bubbleSort(array:inout[Int]){
+func bubbleSort(array: inout[Int]) {
     var i = 1
     while i < array.count {
         var j = array.count-1
@@ -25,10 +25,10 @@ func bubbleSort(array:inout[Int]){
     }
 }
 //Int型升序直接插入排序
-func In_placeSort(array:inout[Int]) {
-    var i=1
-    var j:Int
-    var key:Int
+func insertSort(array: inout[Int]) {
+    var i = 1
+    var j: Int
+    var key: Int
     while i<array.count {
         key = array[i]
         j = i-1
@@ -42,20 +42,16 @@ func In_placeSort(array:inout[Int]) {
 }
 
 //测试
-var testArray1:[Int]? = [1,3,5,7,9,2,4,6,8]
+var testArray1: [Int]? = [1,3,5,7,9,2,4,6,8]
 print("排序前：\(testArray1!)")
-if var array1=testArray1 {
+if var array1 = testArray1 {
     bubbleSort(array: &array1)
     print("冒泡排序后：\(array1)")
 }else{
     print("0")
 }
 
-var testArray2:[Int]? = [1,3,5,7,9,2,4,6,8]
-print("排序前：\(testArray2!)")
-if var array2=testArray2 {
-    In_placeSort(array: &array2)
-    print("插入排序后：\(array2)")
-}else{
-    print("0")
-}
+var testArray2: [Int] = [1,3,5,7,9,2,4,6,8]
+print("排序前：\(testArray2)")
+insertSort(array: &testArray2)
+print("插入排序后：\(testArray2)")

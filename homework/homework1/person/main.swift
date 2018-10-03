@@ -8,14 +8,14 @@
 
 import Foundation
 
-class Person{
-    let name:String
-    let sex:String
-    var age:Int
-    var height:Int
-    var weight:Int
+class Person {
+    let name: String
+    let sex: String
+    var age: Int
+    var height: Int
+    var weight: Int
     
-    init(name:String,sex:String,age:Int,height:Int,weight:Int) {
+    init(name: String, sex: String, age: Int, height: Int, weight: Int) {
         self.name = name
         self.sex = sex
         self.age = age
@@ -27,30 +27,30 @@ class Person{
 }
 
 class Teacher: Person {
-    var subject:String
+    var subject: String
     
-    init(name:String,sex:String,age:Int,height:Int,weight:Int
-        ,subject:String) {
+    init(name: String, sex: String, age: Int, height: Int,weight: Int
+        , subject: String) {
         self.subject = subject
-        super.init(name: name, sex: sex, age: age, height: height,weight:weight)
+        super.init(name: name, sex: sex, age: age, height:  height,weight: weight)
     }
     //返回Teacher的BMI
     func getBMI() -> Int {
         return self.weight/(self.height*self.height)
     }
     //返回两个Teacher的身高差
-    static func getHeightDiff(Teacher1:Teacher,Teacher2:Teacher) ->
+    static func getHeightDiff(Teacher1: Teacher,Teacher2: Teacher) ->
         Int {
             return abs(Teacher1.height-Teacher2.height)
     }
 }
 
 class Student: Person {
-    var grade:Int
-    var major:String
-    var GPA:Double
+    var grade: Int
+    var major: String
+    var GPA: Double
     
-    init(name: String, sex: String, age: Int, height: Int, weight:Int, grade:Int, major:String, GPA:Double) {
+    init(name: String, sex: String, age: Int, height: Int, weight: Int, grade: Int, major: String, GPA: Double) {
         self.grade = grade
         self.major = major
         self.GPA = GPA

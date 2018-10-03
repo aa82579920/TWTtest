@@ -18,22 +18,33 @@ struct Node{
 }
 
 struct Rectangle{
-    var center:Node
-    var grith:Int
-    var area:Int
-    
     var nodeA:Node  //矩形左上角
     var nodeC:Node  //矩形右下角
-    
+    var center: Node {
+        get {
+            let length = nodeC.x-nodeA.x
+            let width = nodeA.y-nodeC.y
+            let centerX = nodeA.x+length/2
+            let centerY = nodeA.y-width/2
+            return Node(x: centerX, y: centerY)
+        }
+    }
+    var grith:Int {
+        let length = nodeC.x-nodeA.x
+        let width = nodeA.y-nodeC.y
+        return (length+width)*2
+    }
+    var area:Int {
+        let length = nodeC.x-nodeA.x
+        let width = nodeA.y-nodeC.y
+        return length*width
+    }
+
     init(nodeA:Node, nodeC:Node) {
         self.nodeA = nodeA
         self.nodeC = nodeC
-        let length = nodeC.x-nodeA.x
-        let width = nodeA.y-nodeC.y
-        self.center = Node(x: nodeA.x+length/2, y: nodeA.y-width/2)
-        grith = (length+width)*2
-        area = length*width
     }
+    
     
     func getNodeArray() -> [Node] {
         let length = nodeC.x-nodeA.x

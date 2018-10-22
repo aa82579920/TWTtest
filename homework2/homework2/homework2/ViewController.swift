@@ -7,14 +7,15 @@
 //
 
 import UIKit
+
 // 获取屏幕宽度
 struct Device {
     static let width = UIScreen.main.bounds.width
     static let height = UIScreen.main.bounds.height
 }
+
 class ViewController: UIViewController {
 
-    
     let imageView = UIImageView()
     let topBtn = UIButton()
     let bottomBtn = UIButton()
@@ -25,6 +26,7 @@ class ViewController: UIViewController {
     let smallBtn = UIButton()
     let CWBtn = UIButton()
     let ACWBtn = UIButton()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //print(Device.width, Device.height)

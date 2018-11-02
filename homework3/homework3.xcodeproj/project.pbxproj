@@ -16,6 +16,7 @@
 		74013A62218341D200AC235C /* homework3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74013A61218341D200AC235C /* homework3UITests.swift */; };
 		74013A70218343DB00AC235C /* AddContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74013A6F218343DB00AC235C /* AddContactController.swift */; };
 		740572502187614D006E8151 /* PersonInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7405724F2187614D006E8151 /* PersonInfoController.swift */; };
+		748ECB0A218C89CC00CC0045 /* PersonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748ECB09218C89CC00CC0045 /* PersonInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		74013A63218341D200AC235C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74013A6F218343DB00AC235C /* AddContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactController.swift; sourceTree = "<group>"; };
 		7405724F2187614D006E8151 /* PersonInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoController.swift; sourceTree = "<group>"; };
+		748ECB09218C89CC00CC0045 /* PersonInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				74013A4D218341D200AC235C /* Info.plist */,
 				74013A6F218343DB00AC235C /* AddContactController.swift */,
 				7405724F2187614D006E8151 /* PersonInfoController.swift */,
+				748ECB09218C89CC00CC0045 /* PersonInfo.swift */,
 			);
 			path = homework3;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				740572502187614D006E8151 /* PersonInfoController.swift in Sources */,
+				748ECB0A218C89CC00CC0045 /* PersonInfo.swift in Sources */,
 				74013A70218343DB00AC235C /* AddContactController.swift in Sources */,
 				74013A44218341D100AC235C /* ViewController.swift in Sources */,
 				74013A42218341D100AC235C /* AppDelegate.swift in Sources */,

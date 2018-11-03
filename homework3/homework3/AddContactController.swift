@@ -40,15 +40,9 @@ class AddContactController: UIViewController {
         let name: String? = nameField.text
         let phoneNum: String? = phoneNumField.text
         PersonFigure.counts += 1
-        // 获取名字的第一个字母Ascll
-        let nameFirst: Character = name![name!.startIndex]
-        var nameAscll: UInt32 = 0
-        for code in nameFirst.unicodeScalars {
-            nameAscll = code.value;
-        }
-        nameAscll = nameAscll-65
-        
-        let person = PersonInfo(name: name!, phone: phoneNum!, nameAscll: Int(nameAscll))
+        userDefaults.set(PersonFigure.counts, forKey: "personCount")
+
+        let person = PersonInfo(name: name!, phone: phoneNum!, num: "\(PersonFigure.counts)")
         //实例对象转换成Data
         let personData = NSKeyedArchiver.archivedData(withRootObject: person)
         //存储Data对象
